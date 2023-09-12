@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SIMPLE WEBSITE</title>
+  <title>Mushroom Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>CLICK THE BUTTON EXPLORE MORE:</h1>
-    
-    <p id="demo">SIMPLE WEBSITE.</p>
-    
-    <button onclick="changeText()">CLICK HERE</button>
-
-    <script>
-        function changeText() {
-            var paragraph = document.getElementById("demo");
-            paragraph.innerHTML = "THIS IS THE LAST PART";
-        }
-    </script>
-</body>
-</html>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="#">Mushroom Store</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h1>WE ARE </h1>
+      <p> WE SELL A TRIPPY MUSHROOM</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      
+    </div>
+  </section>
+  <section class="products">
+    <div class="container">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="img/mushroom1.jpg" alt="Mushroom 1">
+          <h3>Mushroom 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, mauris vel tincidunt malesuada, velit turpis malesuada turpis, ut
